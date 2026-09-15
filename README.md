@@ -119,12 +119,10 @@ The full list is in **Settings → Keyboard shortcuts**.
 <p>
   <img src="https://img.shields.io/badge/Rust-000000?logo=rust&logoColor=white" alt="Rust">
   <img src="https://img.shields.io/badge/Tauri%202-24C8D8?logo=tauri&logoColor=white" alt="Tauri 2">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000" alt="JavaScript">
-  <img src="https://img.shields.io/badge/HTML%20%2B%20CSS-E34F26?logo=html5&logoColor=white" alt="HTML + CSS">
   <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python">
 </p>
 
-A native shell in **Rust** ([Tauri 2](https://tauri.app)) hosts the system web view — WebKit on macOS, WebView2 on Windows. The app itself is plain **JavaScript, HTML and CSS** with no framework and no bundler, compiled into the binary; the build tools are **Python** with nothing but the standard library. One code base, a 5 MB binary, macOS and Windows builds from the same commit.
+A native shell in **Rust** ([Tauri 2](https://tauri.app)) hosts the system web view — WebKit on macOS, WebView2 on Windows — with the interface compiled into the binary, no framework and no bundler. The build tools are **Python** with nothing but the standard library. One code base, a 5 MB binary, macOS and Windows builds from the same commit.
 
 What is in this repository: the releases (`dist/`), the screenshots (`assets/`) and the icon and installer-art generators (`tools/`). The application code itself is not published.
 
