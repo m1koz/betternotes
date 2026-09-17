@@ -134,6 +134,8 @@ What is in this repository: the releases (`dist/`), the screenshots (`assets/`) 
 
 **Does it sync?** Not yet. Put the `data` folder in iCloud Drive, OneDrive or any synced folder and it will follow you; real device-to-device sync is on the roadmap.
 
+**How do I update?** Download the new build and replace the app. Your notes live in the `data` folder, not inside the app, so nothing is lost — but a backup before an update never hurts (**Settings → Backups → Back up now**).
+
 **Can I change the font?** The app ships with the system font. If you own *TT Norms Pro*, BetterNotes will pick it up — see **Settings → About**.
 
 **Something broke.** Open an [issue](https://github.com/m1koz/betternotes/issues) or write to [t.me/mkships](https://t.me/mkships).
