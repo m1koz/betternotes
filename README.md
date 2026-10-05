@@ -53,7 +53,7 @@ shasum -a 256 -c BetterNotes-macos.dmg.sha256
 ## What's inside
 
 ### Notes
-Rich text with headings, lists and checklists, pictures you resize with the mouse, tags, comments and pinning. Highlight important passages with presets or any custom colour, or change the text colour. A note can live on its own, in a project, or in a project branch.
+Rich text with headings, lists and checklists, pictures you resize with the mouse, tags, comments and pinning. Highlight important passages with presets or any custom colour, or change the text colour. Colour stops at the end of the highlighted passage when you continue typing. **Remove colour** clears the selected text colour and highlight while keeping bold, italic and other formatting. A note can live on its own, in a project, or in a project branch.
 
 <p align="center"><img src="assets/note.png" width="860" alt="A note with a picture and a checklist"></p>
 <p align="center"><img src="assets/highlights.jpg" width="860" alt="Custom text highlights in a learning journal"></p>
@@ -90,6 +90,16 @@ Two themes that follow the system or your choice. The interface is available in 
 
 <p align="center"><img src="assets/light-calendar.png" width="860" alt="Light theme"></p>
 
+## Updates and app removal
+
+Open **Settings → Update and removal → Check for updates** to install the latest release. BetterNotes verifies the update signature, saves a safety copy of the app and data, and restarts after installation. Notes, projects, branches and attachments stay in place.
+
+**Remove app** in the same section removes the application and closes it. Your data and backups remain available if you reinstall. On macOS the app goes to the Trash; on Windows an installed copy uses its uninstaller, and a portable copy goes to the Recycle Bin.
+
+<p align="center"><img src="assets/maintenance.jpg" width="860" alt="Settings with update and app removal controls"></p>
+
+Versions before 1.2.1 need one manual update to get these controls.
+
 ## Your data
 
 ```
@@ -103,7 +113,7 @@ data/
 - **Where:** next to the app, if that folder is writable. Apps installed into `/Applications` or `Program Files` keep their data in the user folder instead; the exact path is always shown in **Settings → Data**, with *Open data folder* and *Move…* buttons.
 - **Backups:** a daily copy without attachments and a weekly one with everything, 30 and 8 kept. **Settings → Backups** makes a copy right now, restores any of them, opens the folder.
 - **Moving between computers:** *Export to file* on one, *Import from file* on the other — Mac or Windows, it does not matter. Or just copy the `data` folder.
-- **Local data.** Notes and attachments stay on your computer. The app works offline; an optional fallback font may load from Google Fonts when online.
+- **Local data.** Notes and attachments stay on your computer. The app works offline; an optional fallback font may load from Google Fonts when online. Checking for updates contacts this GitHub repository and sends no notes or attachments.
 
 ## Keyboard shortcuts
 
@@ -142,7 +152,7 @@ This repository contains ready-to-use applications (`dist/`), screenshots (`asse
 
 **Does it sync?** Not yet. Put the `data` folder in iCloud Drive, OneDrive or any synced folder and it will follow you; real device-to-device sync is on the roadmap.
 
-**How do I update?** Download the new build and replace the app. Your notes live in the `data` folder, not inside the app, so nothing is lost — but a backup before an update never hurts (**Settings → Backups → Back up now**).
+**How do I update?** In 1.2.1 and later, use **Settings → Update and removal → Check for updates**. For an older version, download the new installer or replace the Mac app once, keeping your existing data folder. Manual downloads remain available for every release.
 
 **Can I change the font?** The app ships with the system font. If you own *TT Norms Pro*, BetterNotes will pick it up — see **Settings → About**.
 

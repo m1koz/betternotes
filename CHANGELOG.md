@@ -2,6 +2,24 @@
 
 All notable changes to BetterNotes are documented here.
 
+## [1.2.1] — 2026-10-05
+
+### Fixed
+- Highlight and text colour no longer continue onto the next word when typing at the end of a coloured passage
+- Pending saves finish before updating or removing the application
+
+### Added
+- Remove colour in the editor toolbar and colour picker; clears text colour and highlighting while keeping other formatting
+- In-app update checks, verified signed downloads, progress and restart after installation
+- A safety copy of the application and data before installation or removal
+- Remove app in Settings; notes, projects, attachments and backups stay in place
+- Translated maintenance controls, confirmations, progress and errors in all ten languages
+
+### Distribution
+- Universal macOS app (Apple silicon and Intel), Windows x64 installer and portable app
+- Signed update packages and an update manifest for both platforms
+- Versions older than 1.2.1 require one manual update to enable in-app updates
+
 ## [1.2.0] — 2026-10-05
 
 ### Added
