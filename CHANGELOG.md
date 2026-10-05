@@ -2,6 +2,20 @@
 
 All notable changes to BetterNotes are documented here.
 
+## [1.2.0] — 2026-10-05
+
+### Added
+- Project branches: topics with their own tasks, notes, folders, files and links, including optional nested branches
+- Independent branch settings to include tasks in project progress
+- Text highlighting with colour presets, a custom colour picker and HEX input; optional text colour formatting in notes and task notes
+- Search, full exports and backups include branch content and attachments
+
+### Improved
+- The Branches tab is placed immediately after Overview
+- Project duplication, calendar task navigation and attachment cleanup support nested branches
+- New controls are translated into all ten interface languages
+- Universal macOS build for Apple silicon and Intel, plus Windows installer and portable build
+
 ## [1.1.0] — 2026-09-15
 
 First public release for macOS and Windows.
