@@ -1,11 +1,12 @@
 <p align="center">
-  <img src="assets/hero.jpg" width="960" alt="BetterNotes — notes, projects, plans and a week calendar">
+  <img src="assets/hero.jpg" width="960" alt="BetterNotes — projects with branches, tasks, notes, files and links">
 </p>
 
 <h1 align="center">BetterNotes</h1>
 
 <p align="center">
-  Notes, projects, plans and a week calendar — in one window, on your computer.<br>
+  Notes, projects with nested branches, plans and a week calendar.<br>
+  One project for the big picture. One branch for each topic.<br>
   No account, no cloud, no subscription. Your data is a folder of ordinary files.
 </p>
 
@@ -22,11 +23,13 @@
   <a href="https://github.com/m1koz/betternotes/releases/latest/download/BetterNotes-windows-setup.exe"><b>⬇ Download for Windows</b></a>
 </p>
 
-## Why
+## One project. A place for every topic.
 
-Most note apps want an account, a sync server and a monthly fee — and then your notes live somewhere else. BetterNotes runs entirely on your machine. Everything you write lands in a `data/` folder next to the app as plain files: copy the folder and you have a backup, put it in iCloud Drive or OneDrive and it travels with you, move the app to another disk and it keeps working.
+A course, a creative project or a long-term plan can have several directions at once. Keep the big picture in a project, then give each topic a **branch** with its own tasks, notes, files and links. Add nested branches when a topic needs more detail.
 
-It is one window with five sections: **Home**, **Plans**, **Calendar**, **Notes** and **Projects** — the things you do today on the left, the things that accumulate on the right.
+For example: **Learning to code → JavaScript → Functions**. The exercises, explanations and reference files stay together, while Python and Rust have their own spaces in the same project.
+
+BetterNotes works on your computer without an account or subscription. Your notes and attachments are ordinary files in a local data folder. The five main sections are **Home**, **Plans**, **Calendar**, **Notes** and **Projects**.
 
 ## Download
 
@@ -52,43 +55,60 @@ shasum -a 256 -c BetterNotes-macos.dmg.sha256
 
 ## What's inside
 
+### Projects and branches
+
+Open a project and choose **Branches**, immediately after **Overview**. Create a topic, open it and keep the work for that topic together.
+
+<p align="center"><img src="assets/branches.jpg" width="960" alt="JavaScript, Python and Rust branches inside the Learning to code project"></p>
+
+**Go deeper when you need to.** A branch can contain nested branches. Here, JavaScript contains **Functions** and **Async & await**; the breadcrumb path lets you return to any parent topic.
+
+<p align="center"><img src="assets/nested-branches.jpg" width="960" alt="Functions and Async & await nested inside the JavaScript branch"></p>
+
+**Give each topic its own work.** Every branch has tasks, notes, folders, files and links. Tasks can have deadlines and their own notes, links and attachments too.
+
+<p align="center"><img src="assets/branch-tasks.jpg" width="960" alt="Tasks in Learning to code → JavaScript → Functions, with an independent project progress setting"></p>
+<p align="center"><img src="assets/branch-files.jpg" width="960" alt="Reference files and an Examples folder inside the Functions branch"></p>
+
+**Choose what counts toward the project.** Branch tasks are excluded from project progress by default. Turn on **Include tasks in project progress** for the branches you want to count. Each nested branch has its own setting. Task deadlines appear in **Plans** and **Calendar** regardless of that setting.
+
+**Find and keep everything.** Search includes branch names and contents, including the text of attached files. Full exports and backups include the entire branch structure and its attachments.
+
+Project-wide work stays in the main project tabs. Projects also include a photo wall, discussion, links and an overview of progress.
+
+<details>
+<summary>See the main project’s tasks and files</summary>
+
+<p align="center"><img src="assets/project-tasks.jpg" width="960" alt="General project tasks with the Branches tab after Overview"></p>
+<p align="center"><img src="assets/project-files.jpg" width="960" alt="General project files kept outside individual branches"></p>
+
+</details>
+
 ### Notes
 Rich text with headings, lists and checklists, pictures you resize with the mouse, tags, comments and pinning. Highlight important passages with presets or any custom colour, or change the text colour. Colour stops at the end of the highlighted passage when you continue typing. **Remove colour** clears the selected text colour and highlight while keeping bold, italic and other formatting. A note can live on its own, in a project, or in a project branch.
 
-<p align="center"><img src="assets/note.png" width="860" alt="A note with a picture and a checklist"></p>
-<p align="center"><img src="assets/highlights.jpg" width="860" alt="Custom text highlights in a learning journal"></p>
+<p align="center"><img src="assets/branch-note.jpg" width="960" alt="A highlighted note and checklist inside Learning to code → JavaScript → Functions"></p>
 
 ### Calendar
 A week by hours. Click a free slot to create an event, give it a description and a color, drag it to another time or day, pull the bottom edge to make it longer. Task deadlines and daily goals show up in the *all day* strip.
 
 <p align="center"><img src="assets/calendar.png" width="860" alt="Week calendar with colored events"></p>
 
-### Projects
-Tasks with deadlines, and inside each task its own notes, links and files. Every project has a file explorer with folders and drag-and-drop, a photo wall, links, a discussion thread and progress.
-
-The **Branches** tab, right after **Overview**, splits a project into topics with their own tasks, notes, folders, files and links. Add nested branches when a topic needs more structure. Each branch can optionally contribute its tasks to project progress; deadlines still appear in Plans and Calendar. Search, export and full backups include branch contents.
-
-<p align="center"><img src="assets/branches.jpg" width="860" alt="Project branches after the Overview tab"></p>
-<p align="center"><img src="assets/nested-branches.jpg" width="860" alt="Nested topics with independent progress settings"></p>
-
-<p align="center"><img src="assets/project-tasks.png" width="860" alt="Project tasks"></p>
-<p align="center"><img src="assets/project-files.png" width="860" alt="Project files"></p>
-
 ### Plans
-Goals by day, week, month and year. A goal breaks down into the periods inside it; progress rolls up from the bottom, so ticking off a day moves the week, the month and the year. Pick two dates and BetterNotes chooses the horizon for you. Log what you did each day and turn the log into a report note with one click.
+Goals by day, week, month and year. A goal breaks down into the periods inside it; progress rolls up from the bottom, so ticking off a day moves the week, the month and the year. Pick two dates and BetterNotes chooses the horizon for you. Log what you did each day and turn the log into a report note with one click. Tasks from project branches appear on their due dates, with the full topic path.
 
-<p align="center"><img src="assets/plans.png" width="860" alt="Plans for the week"></p>
+<p align="center"><img src="assets/plans.jpg" width="860" alt="Daily learning goals and a deadline task from the Functions branch"></p>
 
 ### Home and search
-Home greets you by name and gathers what is coming up: goals, today's events, pinned notes and active projects. **⌘K / Ctrl+K** searches everything — notes, tasks, events, goals, links, and the contents of text files you attached.
+Home greets you by name and gathers what is coming up: goals, today's events, pinned notes and active projects. **⌘K / Ctrl+K** searches everything — notes, tasks, events, goals, links, and the contents of text files you attached. Results from branches show the full project and topic path, so you can jump straight to the right workspace.
 
-<p align="center"><img src="assets/home.png" width="860" alt="Home"></p>
-<p align="center"><img src="assets/search.png" width="860" alt="Search palette"></p>
+<p align="center"><img src="assets/home.jpg" width="860" alt="Home"></p>
+<p align="center"><img src="assets/search.jpg" width="860" alt="Search finds a branch, its note, tasks, links and file contents with the full topic path"></p>
 
 ### Dark or light, in ten languages
 Two themes that follow the system or your choice. The interface is available in English, Русский, Українська, Deutsch, Français, Español, Italiano, Português, 中文 and 日本語; on first launch BetterNotes takes the language of your system.
 
-<p align="center"><img src="assets/light-calendar.png" width="860" alt="Light theme"></p>
+<p align="center"><img src="assets/light-branches.jpg" width="960" alt="The same project branches in the light theme"></p>
 
 ## Updates and app removal
 
@@ -101,6 +121,8 @@ Open **Settings → Update and removal → Check for updates** to install the la
 Versions before 1.2.1 need one manual update to get these controls.
 
 ## Your data
+
+All screenshots use fictional example content. **A fresh installation starts with empty notes, projects, plans and calendar events.**
 
 ```
 data/
@@ -143,6 +165,8 @@ BetterNotes uses **Rust** and [Tauri 2](https://tauri.app) for the native window
 This repository contains ready-to-use applications (`dist/`), screenshots (`assets/`), release notes and the license. The application source is not published.
 
 ## FAQ
+
+**What is a project branch?** A topic inside a project with its own tasks, notes, files, folders and links. It can contain nested topics, and you choose whether its tasks contribute to the project’s progress.
 
 **Is it free?** Yes. No trial, no in-app purchases, no telemetry.
 
