@@ -232,6 +232,9 @@ This repository contains ready-to-use applications (`dist/`), screenshots (`asse
 
 **Can I change the font?** The app ships with the system font. If you own *TT Norms Pro*, BetterNotes will pick it up — see **Settings → About**.
 
+**What should I include in a bug report?**
+Include the BetterNotes version from **Settings → About**, your operating system, the steps that reproduce the problem, and what you expected versus what happened. For update or installation problems, also mention whether you use the installer or portable build. Use example notes and redact personal content in any screenshots.
+
 **Something broke.** Open an [issue](https://github.com/m1koz/betternotes/issues) or write to [t.me/mkships](https://t.me/mkships).
 
 ## ⭐ Support the project
