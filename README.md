@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="assets/hero.jpg" width="960" alt="BetterNotes — projects with branches, tasks, notes, files and links">
-</p>
-
 <h1 align="center">BetterNotes</h1>
 
 <p align="center">
@@ -11,10 +7,12 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/m1koz/betternotes/releases/latest"><img src="https://img.shields.io/github/v/release/m1koz/betternotes?display_name=tag&color=F2A85C&label=download" alt="Latest release"></a>
-  <img src="https://img.shields.io/badge/macOS-11%2B-000000?logo=apple&logoColor=white" alt="macOS 11+">
-  <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4?logo=windows&logoColor=white" alt="Windows 10 / 11">
-  <img src="https://img.shields.io/badge/license-freeware-8E8E93" alt="Freeware">
+  <a href="https://github.com/m1koz/betternotes/releases/latest"><img src="https://img.shields.io/github/v/release/m1koz/betternotes?style=flat-square&display_name=tag&color=F2A85C&label=download" alt="Latest release"></a>
+  <img src="https://img.shields.io/badge/macOS-11%2B-000000?style=flat-square&logo=apple&logoColor=white" alt="macOS 11+">
+  <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4?style=flat-square&logo=windows&logoColor=white" alt="Windows 10 / 11">
+  <img src="https://img.shields.io/badge/license-freeware-8E8E93?style=flat-square" alt="Freeware">
+  <a href="https://github.com/m1koz/betternotes/stargazers"><img src="https://img.shields.io/github/stars/m1koz/betternotes?style=flat-square&color=F2A85C&label=stars" alt="GitHub stars"></a>
+  <a href="https://github.com/m1koz/betternotes/releases"><img src="https://img.shields.io/github/downloads/m1koz/betternotes/total?style=flat-square&color=F2A85C&label=downloads" alt="Release asset downloads"></a>
 </p>
 
 <p align="center">
@@ -23,7 +21,22 @@
   <a href="https://github.com/m1koz/betternotes/releases/latest/download/BetterNotes-windows-setup.exe"><b>⬇ Download for Windows</b></a>
 </p>
 
-## One project. A place for every topic.
+<p align="center">
+  <a href="#features">Features</a>
+  &nbsp; · &nbsp; <a href="#download">Download</a>
+  &nbsp; · &nbsp; <a href="#screenshots">Screenshots</a>
+  &nbsp; · &nbsp; <a href="#data">Your data</a>
+  &nbsp; · &nbsp; <a href="#faq">FAQ</a>
+  &nbsp; · &nbsp; <a href="https://github.com/m1koz/betternotes/issues">Feedback</a>
+</p>
+
+<p align="center">
+  <img src="assets/hero.jpg" width="960" alt="BetterNotes — projects with branches, tasks, notes, files and links">
+</p>
+
+<a id="features"></a>
+
+## ✨ One project. A place for every topic.
 
 A course, a creative project or a long-term plan can have several directions at once. Keep the big picture in a project, then give each topic a **branch** with its own tasks, notes, files and links. Add nested branches when a topic needs more detail.
 
@@ -31,7 +44,15 @@ For example: **Learning to code → JavaScript → Functions**. The exercises, e
 
 BetterNotes works on your computer without an account or subscription. Your notes and attachments are ordinary files in a local data folder. The five main sections are **Home**, **Plans**, **Calendar**, **Notes** and **Projects**.
 
-## Download
+| Organize | Plan | Keep it yours |
+|---|---|---|
+| Projects with nested branches | Goals from day to year | Ordinary files on your computer |
+| Notes, tasks, files and links | A calendar with draggable events | Automatic backups and full exports |
+| Search across your workspace | Deadlines across projects | No account or subscription |
+
+<a id="download"></a>
+
+## 📥 Download
 
 | | Recommended | Also available |
 |---|---|---|
@@ -53,7 +74,9 @@ shasum -a 256 -c BetterNotes-macos.dmg.sha256
 >
 > **Windows:** SmartScreen may show *"Windows protected your PC"* because the installer is not signed with a paid certificate yet. Click **More info → Run anyway**. The installer is built from the same application code as the macOS app.
 
-## What's inside
+<a id="screenshots"></a>
+
+## 🖼️ Explore BetterNotes
 
 ### Projects and branches
 
@@ -84,20 +107,38 @@ Project-wide work stays in the main project tabs. Projects also include a photo 
 
 </details>
 
+<details>
+<summary><b>Notes — formatting, highlights and checklists</b></summary>
+
 ### Notes
 Rich text with headings, lists and checklists, pictures you resize with the mouse, tags, comments and pinning. Highlight important passages with presets or any custom colour, or change the text colour. Colour stops at the end of the highlighted passage when you continue typing. **Remove colour** clears the selected text colour and highlight while keeping bold, italic and other formatting. A note can live on its own, in a project, or in a project branch.
 
 <p align="center"><img src="assets/branch-note.jpg" width="960" alt="A highlighted note and checklist inside Learning to code → JavaScript → Functions"></p>
+
+</details>
+
+<details>
+<summary><b>Calendar — plan your week</b></summary>
 
 ### Calendar
 A week by hours. Click a free slot to create an event, give it a description and a color, drag it to another time or day, pull the bottom edge to make it longer. Task deadlines and daily goals show up in the *all day* strip.
 
 <p align="center"><img src="assets/calendar.png" width="860" alt="Week calendar with colored events"></p>
 
+</details>
+
+<details>
+<summary><b>Plans — goals and progress</b></summary>
+
 ### Plans
 Goals by day, week, month and year. A goal breaks down into the periods inside it; progress rolls up from the bottom, so ticking off a day moves the week, the month and the year. Pick two dates and BetterNotes chooses the horizon for you. Log what you did each day and turn the log into a report note with one click. Tasks from project branches appear on their due dates, with the full topic path.
 
 <p align="center"><img src="assets/plans.jpg" width="860" alt="Daily learning goals and a deadline task from the Functions branch"></p>
+
+</details>
+
+<details>
+<summary><b>Home and search — find everything</b></summary>
 
 ### Home and search
 Home greets you by name and gathers what is coming up: goals, today's events, pinned notes and active projects. **⌘K / Ctrl+K** searches everything — notes, tasks, events, goals, links, and the contents of text files you attached. Results from branches show the full project and topic path, so you can jump straight to the right workspace.
@@ -105,12 +146,19 @@ Home greets you by name and gathers what is coming up: goals, today's events, pi
 <p align="center"><img src="assets/home.jpg" width="860" alt="Home"></p>
 <p align="center"><img src="assets/search.jpg" width="860" alt="Search finds a branch, its note, tasks, links and file contents with the full topic path"></p>
 
+</details>
+
+<details>
+<summary><b>Appearance and languages</b></summary>
+
 ### Dark or light, in ten languages
 Two themes that follow the system or your choice. The interface is available in English, Русский, Українська, Deutsch, Français, Español, Italiano, Português, 中文 and 日本語; on first launch BetterNotes takes the language of your system.
 
 <p align="center"><img src="assets/light-branches.jpg" width="960" alt="The same project branches in the light theme"></p>
 
-## Updates and app removal
+</details>
+
+## 🔄 Updates and app removal
 
 Open **Settings → Update and removal → Check for updates** to install the latest release. BetterNotes verifies the update signature, saves a safety copy of the app and data, and restarts after installation. Notes, projects, branches and attachments stay in place.
 
@@ -120,7 +168,9 @@ Open **Settings → Update and removal → Check for updates** to install the la
 
 Versions before 1.2.1 need one manual update to get these controls.
 
-## Your data
+<a id="data"></a>
+
+## 🔒 Your data
 
 All screenshots use fictional example content. **A fresh installation starts with empty notes, projects, plans and calendar events.**
 
@@ -137,7 +187,7 @@ data/
 - **Moving between computers:** *Export to file* on one, *Import from file* on the other — Mac or Windows, it does not matter. Or just copy the `data` folder.
 - **Local data.** Notes and attachments stay on your computer. The app works offline; an optional fallback font may load from Google Fonts when online. Checking for updates contacts this GitHub repository and sends no notes or attachments.
 
-## Keyboard shortcuts
+## ⌨️ Keyboard shortcuts
 
 | | |
 |---|---|
@@ -152,19 +202,21 @@ data/
 
 The full list is in **Settings → Keyboard shortcuts**.
 
-## Built with
+## 🛠️ Built with
 
 <p>
-  <img src="https://img.shields.io/badge/Rust-000000?logo=rust&logoColor=white" alt="Rust">
-  <img src="https://img.shields.io/badge/Tauri%202-24C8D8?logo=tauri&logoColor=white" alt="Tauri 2">
-  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust">
+  <img src="https://img.shields.io/badge/Tauri%202-24C8D8?style=flat-square&logo=tauri&logoColor=white" alt="Tauri 2">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
 </p>
 
 BetterNotes uses **Rust** and [Tauri 2](https://tauri.app) for the native window, file storage, attachments, backups and system dialogs on both macOS and Windows. The interface uses **JavaScript, HTML and CSS** in the system WebView and is embedded in the application binary. **Python** is used for development tools and artwork generation; users do not need Python or npm.
 
 This repository contains ready-to-use applications (`dist/`), screenshots (`assets/`), release notes and the license. The application source is not published.
 
-## FAQ
+<a id="faq"></a>
+
+## 💬 FAQ
 
 **What is a project branch?** A topic inside a project with its own tasks, notes, files, folders and links. It can contain nested topics, and you choose whether its tasks contribute to the project’s progress.
 
@@ -182,6 +234,10 @@ This repository contains ready-to-use applications (`dist/`), screenshots (`asse
 
 **Something broke.** Open an [issue](https://github.com/m1koz/betternotes/issues) or write to [t.me/mkships](https://t.me/mkships).
 
-## License
+## ⭐ Support the project
+
+If BetterNotes helps you organize your work, a star helps others discover it. Found a bug or have an idea? Open an [issue](https://github.com/m1koz/betternotes/issues).
+
+## ⚖️ License
 
 BetterNotes is free to download and use under the [End User License Agreement](LICENSE). © 2026 m1koz. All rights reserved.
